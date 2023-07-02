@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Валидация формы</title>
+</head>
+<body>
+    
+    <h1>Введите данные:</h1>
+    <form class="form" action="" id="form" name="form" novalidate>
+        <div class="form__wrapper">
+            <div class="form__wrapper__item">
+                <label for="firstname">Имя:</label>
+                <input class="form__input" type="text" placeholder="Введите имя" name="firstname" id="firstname">
+            </div>
+            
+            <div class="form__wrapper__item">
+                <label for="lastname">Фамилия:</label>
+                <input class="form__input" type="text" placeholder="Введите фамилию" name="lastname" id="lastname">
+            </div>
+            
+            <div class="form__wrapper__item">
+                <label for="email">Почта:</label>
+                <input class="form__input" type="text" placeholder="Введите почту" name="email" id="email">
+            </div>
+            
+            <div class="form__wrapper__item">
+                <label for="password">Пароль:</label>
+                <input class="form__input" type="password" placeholder="Введите пароль" name="password" id="password">
+            </div>
+
+            <div class="form__wrapper__item">
+                <label for="check-password">Повторите пароль:</label>
+                <input class="form__input" type="password" placeholder="Введите пароль еще раз" name="check-password" id="check-password">
+            </div>
+
+            <button class="form__btn">Отправить</button>
+        </div>
+        
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

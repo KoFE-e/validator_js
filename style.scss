@@ -1,0 +1,25 @@
+.form {
+    max-width: 500px;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        &__item {
+            max-width: 300px;
+            margin: 10px 0;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    &__input {
+        margin-top: 5px;
+    }
+    &__btn {
+        width: 100px;
+    }
+}
+
+.error {
+    margin-top: 5px;
+    color: red;
+    font-size: 12px;
+}
